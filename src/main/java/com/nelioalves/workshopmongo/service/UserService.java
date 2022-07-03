@@ -1,4 +1,4 @@
-package com.nelioalves.workshopmongo.services;
+package com.nelioalves.workshopmongo.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -51,3 +51,4 @@ public class UserService {
 		return new User(objDto.getId(), objDto.getName(), objDto.getEmail());
 	} 
 }
+
